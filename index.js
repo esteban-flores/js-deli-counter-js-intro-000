@@ -15,6 +15,7 @@ function takeANumber(currentLine, name){
   currentLine.push(name);
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 };
+<<<<<<< HEAD
 
 //Build a function nowServing. This function should accept the current line
 //of people (katzDeliLine) and return the first person in line and then remove
@@ -68,3 +69,5 @@ function currentLine(cLine){
   //is chosen.
   return `The line is currently: ${people.join(`, `)}`;
 };
+=======
+>>>>>>> f74cca0f9b50bfcbe6b22dc780e121933836dab3
